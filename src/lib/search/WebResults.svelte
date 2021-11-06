@@ -9,7 +9,7 @@
 	{#each result?.results.slice(0,count) as ite, index}		
 		<div class="my-4">
 			<a target="_blank" href={ite?.link} class=" group">
-				<small class="opacity-70 line-clamp-1">{ite?.cite?.domain}</small>
+				<small class="opacity-70 line-clamp-1">{ite?.cite?.domain || ""}</small>
 				<h2 class="group-hover:underline text-[#8ab4f8] text-xl line-clamp-1 leading-relaxed">{ite?.title}</h2>
 				<p class="text-base line-clamp-2 text-sm opacity-70">{ite?.description}</p>
 			</a>
