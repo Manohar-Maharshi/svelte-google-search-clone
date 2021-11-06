@@ -1,0 +1,8 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+body{
+	background-color: #202124;
+	color: #fff;
+}
+@tailwind utilities;
