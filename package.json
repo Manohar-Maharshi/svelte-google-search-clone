@@ -20,8 +20,6 @@
     "vite": "^2.6.4"
   },
   "dependencies": {
-    "svelte-infinite-scroll": "^2.0.0",
-    "svelte-paginate": "^0.0.1",
     "svelte-routing": "^1.6.0"
   }
 }
